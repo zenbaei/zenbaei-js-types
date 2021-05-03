@@ -8,7 +8,7 @@ declare global {
    */
   function FileLog(msg: string | object): void;
 
-  var LogLevel: string;
+  var LogLevel: 'info' | 'debug' | 'trace' | 'off';
 
   type Language = 'en' | 'ar';
 }
