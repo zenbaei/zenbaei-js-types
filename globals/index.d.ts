@@ -2,7 +2,7 @@ declare global {
   // this file only exists in order to be able to export global from util/index.ts
   // otherwise globals.d.ts wont be visible for external projects.
   /**
-   * This should be implemented in the dependant moudles,
+   * This should be implemented in the dependant modules,
    * to provide file logging implementation.
    * @param msg
    */
