@@ -11,6 +11,8 @@ declare global {
   var LogLevel: 'info' | 'debug' | 'trace' | 'off';
 
   type Language = 'en' | 'ar';
+
+  var token = '';
 }
 
 export {};
